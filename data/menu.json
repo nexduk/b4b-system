@@ -1,0 +1,20 @@
+{
+  "categories": [
+    { "id": 1, "name": "Burgers", "icon": "res/kiosk/icons/burgers.svg" },
+    { "id": 2, "name": "Sides",   "icon": "res/kiosk/icons/sides.svg" },
+    { "id": 3, "name": "Drinks",  "icon": "res/kiosk/icons/drinks.svg" },
+    { "id": 4, "name": "Desserts","icon": "res/kiosk/icons/desserts.svg" }
+  ],
+  "items": [
+    { "id": 101, "name": "Classic Burger",  "category_id": 1, "price": 15000, "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 102, "name": "Cheese Burger",   "category_id": 1, "price": 17000, "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 103, "name": "Chicken Burger",  "category_id": 1, "price": 16000, "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 201, "name": "Fries",           "category_id": 2, "price": 7000,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 202, "name": "Onion Rings",     "category_id": 2, "price": 8000,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 301, "name": "Cola",            "category_id": 3, "price": 5000,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 302, "name": "Iced Tea",        "category_id": 3, "price": 5000,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 303, "name": "Water",           "category_id": 3, "price": 2500,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 401, "name": "Ice Cream",       "category_id": 4, "price": 6000,  "icon": "res/kiosk/icons/item.svg", "available": true },
+    { "id": 402, "name": "Brownie",         "category_id": 4, "price": 7500,  "icon": "res/kiosk/icons/item.svg", "available": false }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Kiosk</title>
+  <link rel="stylesheet" href="/web/kiosk/kiosk.css">
+</head>
+<body>
+
+  <!-- Screen 1: welcome -->
+  <section id="welcome" class="screen">
+    <img class="welcome-img" src="/res/kiosk/front.png" alt="">
+    <button class="btn-primary" onclick="show('menu')">Order now</button>
+  </section>
+
+  <!-- Screen 2: menu -->
+  <section id="menu" class="screen" hidden>
+    <aside id="categories"></aside>
+    <main>
+      <header class="menu-header">
+        <h2 id="category-title"></h2>
+        <button class="btn-secondary" onclick="show('welcome')">Back</button>
+      </header>
+      <div id="items"></div>
+    </main>
+  </section>
+
+  <script src="/web/kiosk/kiosk.js"></script>
+</body>
+</html>
